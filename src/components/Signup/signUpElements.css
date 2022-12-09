@@ -1,0 +1,123 @@
+
+.SignContainer {
+    
+    background: #d1512d ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+    
+}
+
+.CardContainer {
+
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0, 0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 522px;
+    min-width: 370px;
+} 
+
+.SignCard {
+
+    display: flex;
+}
+.SignLeft {
+
+    flex: 1;
+    height: 522px;
+    background: #d1512d;
+}
+.CardLeft {
+
+    display: flex;
+    flex: 1;
+    height: 460px;
+    justify-content: center;
+    align-items: center;
+} 
+.Signh1{
+    cursor: pointer;
+    padding: 15px;
+    font-weight: 800;
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+}
+
+    .Signh1:hover {
+        color: black;
+    }
+
+.SignText {
+    color: #fff;
+    font-size: 28px;
+    margin-left: 5px;
+    font-weight: 800;
+    text-align: center;
+    width: 150px;
+}
+
+.SignRight{
+
+    display: flex;
+    flex: 1;
+    height: 460px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+}
+    
+.RightContainer{
+
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+} 
+.Form{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    background: #010101;
+    border-radius: 10px;
+    max-height: 390px;    
+    box-shadow: 5px 5px 10px black;
+}
+.FormLabel{
+
+    font-size: 14px;
+    margin-top:10px ;
+    color: #fff;
+}
+.FormInput {
+
+    height: 40px;
+    border-radius: 5px;
+}
+.FormButton {
+
+    color: #fff;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 40px;
+    outline: none;
+    background: #d1512d;
+}
+
+    .FormButton:hover {
+        color: black;
+        background: white;
+        transition: all 0.3s ease-in-out;
+    }
